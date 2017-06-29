@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<form method="post">
+  <label>
+    Username
+    <input type="text" name="username"/>
+  </label>
+  <label>
+    Password
+    <input type="password" name="password"/>
+  </label>
+  <label>
+    Verify Password
+    <input type="password" name="verify_password"/>
+  </label>
+  <label>
+    Email (Optional)
+    <input type="text" name="email"/>
+  </label>
+  <input type="submit"/>
+</form>
+
+{% endblock %}
